@@ -11,10 +11,9 @@ namespace _1_uslovniy_operator
             Console.Write("Введите количество повторов: ");
             int numberForRepetitions = Convert.ToInt32(Console.ReadLine());
 
-            while (numberForRepetitions > 0)
+            for (int i = numberForRepetitions; i > 0; i--)
             {
                 Console.WriteLine(outputText);
-                numberForRepetitions--;
             }
         }
     }
